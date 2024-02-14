@@ -1,12 +1,11 @@
-export class Notification {
+export interface INotification {
+    notify(): void;
+}
+export class INotificationService {
     type: 'sms' | 'email';
     email: string;
     issue: string;
     phoneNumber: string;
-}
-
-export interface INotification {
-    notify(): void;
 }
 
 class NotificationEmailService implements INotification {
