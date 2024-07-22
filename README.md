@@ -10,3 +10,5 @@ They are recommendations for writing maintainable, scalable and robust code. The
     - Low coupling: Prevent one class from strongly depending on another class.
 
 #### Here you will find examples of how to use these principles.
+
+
